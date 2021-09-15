@@ -1,10 +1,11 @@
-import styles from './app.module.css';
-
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+import { ExpenseItem } from '@rcg/expenses';
 
 export function App() {
-  return <div></div>;
+  return (
+    <div>
+      <ExpenseItem />
+    </div>
+  );
 }
 
 export default App;

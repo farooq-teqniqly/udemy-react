@@ -27,12 +27,18 @@
     ]
   },
   "projects": {
+    "expenses": {
+      "tags": []
+    },
     "react-complete-guide": {
       "tags": []
     },
     "react-complete-guide-e2e": {
       "tags": [],
       "implicitDependencies": ["react-complete-guide"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
